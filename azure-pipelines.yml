@@ -22,7 +22,7 @@ steps:
     inputs:
       command: 'push'
       tags: 'latest'
-      containerRegistry: 'cb459485-d77a-48ec-8ac6-fafba772f942'
+      containerRegistry: 'samuelcontenedor.azurecr.io'
   
   - task: Docker@2
     displayName: 'Docker Compose Up'

@@ -22,7 +22,7 @@ steps:
     inputs:
       command: 'push'
       tags: 'latest'
-      containerRegistry: 'samuelcontenedor'
+      containerRegistry: 'ConexionSamuelContenedor'
   
   - task: Docker@2
     displayName: 'Docker Compose Up'
